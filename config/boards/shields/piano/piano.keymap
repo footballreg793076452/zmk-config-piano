@@ -156,13 +156,13 @@
         //╭──────────┼──────────┼──────────┼─────────┤                                            ├──────────┼──────────┼─────────┼──────────╮
         //|  NM1 A   |  SM2 S   |  SM1 D   |  SYS F  |                                            |   SYS J  |   SM1 K  |  SM2 I  |  NM1 ENT |
         //╰──────────┴──────────┴──────────┴─────────┼─────────┬─────────╮   ╭─────────┬──────────┼──────────┴──────────┴─────────┴──────────╯
-        //                                           |alpha2 G | rep spc |   | c_alpha2| alpha2 H |              
+        //                                           |alpha2 G |c_alpha2 |   |  SPACE  | alpha2 H |              
         //                                           ╰─────────┴─────────╯   ╰─────────┴──────────╯
 
         bindings = <
                      &hm_l LCTL W  &hm_l LALT E  &hm_l LGUI R                                                                     &hm_r RGUI U  &hm_r RALT I  &hm_r RCTL O      
         &hl_l NM1 A  &hl_l SM2 S   &hl_l SM1 D   &hl_l SYS F                                                                      &hl_r SYS J   &hl_r SM1 K   &hl_r SM2 I  &hl_r NM1 RET
-                                                    &alpha2macro &kp SPACE  &caps_alpha2macro  &alpha2macro         
+                                                    &hl_l AL2 G &caps_alpha2macro  &kp SPACE    &hl_r AL2 H         
         >;
         };
 
