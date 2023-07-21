@@ -162,7 +162,7 @@
         bindings = <
                      &hm_l LCTL W  &hm_l LALT E  &hm_l LGUI R                                                                     &hm_r RGUI U  &hm_r RALT I  &hm_r RCTL O      
         &hl_l NM1 A  &hl_l SM2 S   &hl_l SM1 D   &hl_l SYS F                                                                      &hl_r SYS J   &hl_r SM1 K   &hl_r SM2 I  &hl_r NM1 RET
-                                                    &hl_l alpha2macro G &hl_l key_repeat SPACE  &caps_alpha2macro  &hl_r alpha2macro H         
+                                                    &alpha2macro &kp SPACE  &caps_alpha2macro  &alpha2macro         
         >;
         };
 
